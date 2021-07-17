@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-minibanking-dev-162043-authRole",
+      "UnauthRoleArn": "arn:aws:iam::571392796885:role/amplify-minibanking-dev-162043-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::571392796885:role/amplify-minibanking-dev-162043-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-minibanking-dev-162043-deployment",
+      "UnauthRoleName": "amplify-minibanking-dev-162043-unauthRole",
+      "StackName": "amplify-minibanking-dev-162043",
+      "StackId": "arn:aws:cloudformation:us-east-1:571392796885:stack/amplify-minibanking-dev-162043/82530bb0-e55a-11eb-a720-12878b97cc21",
+      "AmplifyAppId": "d2mu91dq3ws4p6"
+    },
+    "categories": {
+      "auth": {
+        "minibankingbfa0c21b": {}
+      },
+      "function": {
+        "userprofilefunc": {
+          "deploymentBucketName": "amplify-minibanking-dev-162043-deployment",
+          "s3Key": "amplify-builds/userprofilefunc-4f596a32553479457247-build.zip"
+        }
+      }
+    }
+  }
+}

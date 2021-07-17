@@ -1,0 +1,5 @@
+{
+    "tableName": "userprofiledb",
+    "partitionKeyName": "accountnumber",
+    "partitionKeyType": "N"
+}

@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/userprofile",
+      "lambdaFunction": "userprofilefunc",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/userprofile"
+    }
+  ],
+  "resourceName": "userprofileapi",
+  "apiName": "userprofileapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "userprofilefunc"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-minibanking-dev-162043-authRole",
+    "unAuthRoleName": "amplify-minibanking-dev-162043-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "userprofilefunc",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
